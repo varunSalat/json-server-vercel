@@ -138,5 +138,13 @@
       "paused": 20,
       "id": "8"
     }
-  ]
+  ],
+  "queue-metrics": {
+    "total": 24,
+    "waiting": 2,
+    "active": 4,
+    "failed": 2,
+    "completed": 16,
+    "delayed": 3
+  }
 }
