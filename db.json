@@ -17,14 +17,6 @@
       "isActive": false
     },
     {
-      "aliasName": "Internal API Server",
-      "host": "192.168.1.110",
-      "port": 3000,
-      "database": "InternalAPI",
-      "isActive": false,
-      "id": "11"
-    },
-    {
       "id": "2cd9",
       "aliasName": "Cache Server",
       "host": "192.168.1.100",
@@ -146,5 +138,87 @@
     "failed": 2,
     "completed": 16,
     "delayed": 3
-  }
+  },
+  "queue-jobs": [
+    {
+      "id": "dfdf0",
+      "name": "Job A",
+      "createdAt": "12/10/2000",
+      "waited": 120,
+      "processed": 40,
+      "finished": 20,
+      "run": 80,
+      "attempts": 0
+    },
+    {
+      "id": "dfdf1",
+      "name": "Job B",
+      "createdAt": "12/11/2000",
+      "waited": 150,
+      "processed": 60,
+      "finished": 30,
+      "run": 100,
+      "attempts": 1
+    },
+    {
+      "id": "dfdf2",
+      "name": "Job C",
+      "createdAt": "12/12/2000",
+      "waited": 180,
+      "processed": 100,
+      "finished": 60,
+      "run": 140,
+      "attempts": 2
+    },
+    {
+      "id": "dfdf3",
+      "name": "Job D",
+      "createdAt": "12/13/2000",
+      "waited": 90,
+      "processed": 30,
+      "finished": 10,
+      "run": 50,
+      "attempts": 1
+    },
+    {
+      "id": "dfdf4",
+      "name": "Job E",
+      "createdAt": "12/14/2000",
+      "waited": 200,
+      "processed": 120,
+      "finished": 80,
+      "run": 180,
+      "attempts": 3
+    },
+    {
+      "id": "dfdf5",
+      "name": "Job F",
+      "createdAt": "12/15/2000",
+      "waited": 130,
+      "processed": 60,
+      "finished": 40,
+      "run": 120,
+      "attempts": 2
+    },
+    {
+      "id": "dfdf6",
+      "name": "Job G",
+      "createdAt": "12/16/2000",
+      "waited": 110,
+      "processed": 50,
+      "finished": 30,
+      "run": 90,
+      "attempts": 0
+    },
+    {
+      "id": "dfdf7",
+      "name": "Job H",
+      "createdAt": "12/17/2000",
+      "waited": 160,
+      "processed": 70,
+      "finished": 50,
+      "run": 120,
+      "attempts": 3
+    }
+  ]
 }
