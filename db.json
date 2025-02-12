@@ -6,7 +6,7 @@
       "host": "192.168.1.108",
       "port": 9200,
       "database": "Logs",
-      "isActive": true
+      "status": "active"
     },
     {
       "id": "10",
@@ -14,7 +14,7 @@
       "host": "192.168.1.109",
       "port": 8080,
       "database": "MetricsDB",
-      "isActive": false
+      "status": "inActive"
     },
     {
       "id": "2cd9",
@@ -22,7 +22,87 @@
       "host": "192.168.1.100",
       "port": 6379,
       "database": "CacheOSs",
-      "isActive": true
+      "status": "active"
+    },
+    {
+      "id": "11",
+      "aliasName": "Database Server",
+      "host": "192.168.1.110",
+      "port": 3306,
+      "database": "MainDB",
+      "status": "active"
+    },
+    {
+      "id": "12",
+      "aliasName": "Backup Server",
+      "host": "192.168.1.111",
+      "port": 21,
+      "database": "BackupStorage",
+      "status": "inActive"
+    },
+    {
+      "id": "13",
+      "aliasName": "Authentication Server",
+      "host": "192.168.1.112",
+      "port": 5000,
+      "database": "AuthDB",
+      "status": "active"
+    },
+    {
+      "id": "14",
+      "aliasName": "File Storage Server",
+      "host": "192.168.1.113",
+      "port": 9000,
+      "database": "FileStore",
+      "status": "active"
+    },
+    {
+      "id": "15",
+      "aliasName": "Web Server",
+      "host": "192.168.1.114",
+      "port": 80,
+      "database": "WebContent",
+      "status": "active"
+    },
+    {
+      "id": "16",
+      "aliasName": "Application Server",
+      "host": "192.168.1.115",
+      "port": 3000,
+      "database": "AppData",
+      "status": "inActive"
+    },
+    {
+      "id": "17",
+      "aliasName": "Analytics Server",
+      "host": "192.168.1.116",
+      "port": 5432,
+      "database": "AnalyticsDB",
+      "status": "active"
+    },
+    {
+      "id": "18",
+      "aliasName": "Monitoring Server",
+      "host": "192.168.1.117",
+      "port": 9090,
+      "database": "MonitorDB",
+      "status": "inActive"
+    },
+    {
+      "id": "19",
+      "aliasName": "Development Server",
+      "host": "192.168.1.118",
+      "port": 5001,
+      "database": "DevDB",
+      "status": "active"
+    },
+    {
+      "id": "20",
+      "aliasName": "Staging Server",
+      "host": "192.168.1.119",
+      "port": 4000,
+      "database": "StagingDB",
+      "status": "active"
     }
   ],
   "queueList": [
